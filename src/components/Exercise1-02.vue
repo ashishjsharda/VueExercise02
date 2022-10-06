@@ -5,15 +5,19 @@
 </template>
 
 <script>
+
 export default {
-  name: 'Exercise1-02',
+
   data() {
+
     return {
-      title: 'Exercise 1-02',
-      message: 'Hello Vue.js!'
+
+      title: 'My first component!',
+
     }
-  }
+
+  },
+
 }
 
 </script>
-
