@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1> {{title.toUpperCase()}}</h1>
+  <h1> {{isUpperCase ? title.toUpperCase() :title}}</h1>
 </div>
 </template>
 
@@ -15,6 +15,5 @@ export default {
   }
 }
 
-<style>
+</script>
 
-</style>
