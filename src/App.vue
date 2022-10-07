@@ -1,17 +1,25 @@
 <template>
-
-  <Exercise />
+  <div>
+    <h1> {{isUpperCase ? title.toUpperCase() :title}}</h1>
+  </div>
 </template>
 
 <script>
-import Exercise from "@/components/Exercise1-02";
 
 export default {
-  name: 'App',
-  components: {
-    Exercise
-  }
+
+  data() {
+
+    return {
+
+      title: 'My first component!',
+
+    }
+
+  },
+
 }
+
 </script>
 
 <style>
