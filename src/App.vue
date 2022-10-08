@@ -13,6 +13,7 @@ export default {
     return {
 
       title: 'My first component!',
+      isUpperCase: false,
 
     }
 
